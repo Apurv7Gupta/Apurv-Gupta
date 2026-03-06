@@ -128,7 +128,7 @@ export default function Hero({ startAnimation = true }: HeroProps) {
             className="lg:col-span-8 order-2 lg:order-1"
           >
             <div className="flex flex-col sm:flex-row gap-4 items-center">
-              <a href="https://docs.google.com/document/d/1IPLfwKOhr2xrQxuVMX6hM3v2v98ivm_h/edit?usp=drive_link&ouid=113285299001805701589&rtpof=true&sd=true">
+              <a href="https://docs.google.com/document/d/1mYTdEVDyZMmXxMx7vwNjd6SRd24S4fQJEQdFvcjez1E/edit?usp=sharing">
                 <GlowButton label="RESUME" />
               </a>
               <a href="https://github.com/Apurv7Gupta/">
