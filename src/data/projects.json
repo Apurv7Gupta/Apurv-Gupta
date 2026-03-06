@@ -1,0 +1,61 @@
+[
+  {
+    "Name": "InvigilAI",
+    "desc": "Deep-Learning Based Proctoring System",
+    "link": "https://github.com/Apurv7Gupta/InvigilAI/",
+    "link_name": "Github",
+    "tech": "YOLO • PANNs • MediaPipe • VGG2 • FaceNet • Docker",
+    "images": [
+      "/InvigilAI/1.png",
+      "/InvigilAI/3.png",
+      "/InvigilAI/4.png",
+      "/InvigilAI/2.png",
+      "/InvigilAI/5.png"
+    ]
+  },
+  {
+    "Name": "DiagneX",
+    "desc": "GenAI based medical website",
+    "link": "https://github.com/Apurv7Gupta/Diagnex",
+    "link_name": "Github",
+    "tech": "Flask • RandomForest • Gemini • Multer • React",
+    "images": [
+      "/DiagneX/1.png",
+      "/DiagneX/2.png",
+      "https://github.com/Apurv7Gupta/Diagnex/blob/main/public/DiagneX.png?raw=true",
+      "/DiagneX/3.png",
+      "/DiagneX/4.png",
+      "/DiagneX/5.png",
+      "/DiagneX/6.png"
+    ]
+  },
+  {
+    "Name": "UrbanDwell",
+    "desc": "Full Stack room rental website powered by Supabase, react and FastAPI",
+    "link": "https://github.com/Apurv7Gupta/UrbanDwell",
+    "link_name": "Github",
+    "tech": "React • Supabase • SQL • SupaAuth • FastAPI",
+    "images": [
+      "/UrbanDwell/0.png",
+      "/UrbanDwell/1.png",
+      "/UrbanDwell/3a.png",
+      "/UrbanDwell/3B.png",
+      "/UrbanDwell/3C.png",
+      "/UrbanDwell/4.png",
+      "/UrbanDwell/5.png"
+    ]
+  },
+  {
+    "Name": "CineTwin",
+    "desc": "Cosine Similarity based movie recommendation system",
+    "link": "https://cinetwin.onrender.com/",
+    "link_name": "Website",
+    "tech": "Traditional ML • Cosine Similarity • Python • SK-learn",
+    "images": [
+      "/CineTwin/1.png",
+      "/CineTwin/2.png",
+      "/CineTwin/3.png",
+      "/CineTwin/4.png"
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "category": "Frontend & Languages",
+    "items": [
+      "C",
+      "C++",
+      "Python",
+      "JS",
+      "Qt",
+      "HTML5",
+      "CSS3",
+      "React",
+      "React Flow"
+    ]
+  },
+  {
+    "category": "AI / ML",
+    "items": ["TensorFlow", "PyTorch", "OpenCV", "FastAPI"]
+  },
+  {
+    "category": "Backend & DB",
+    "items": ["Node.js", "Express", "MySQL", "MongoDB"]
+  },
+  {
+    "category": "Cybersecurity",
+    "items": ["Burp Suite", "Nmap", "Wireshark", "Ghidra"]
+  },
+  {
+    "category": "DevOps",
+    "items": ["Docker", "Git", "GitHub Actions", "CI/CD", "Vite", "NPM"]
+  },
+  {
+    "category": "Deployment",
+    "items": ["Vercel", "Render", "GitHub", "Netlify"]
+  },
+  {
+    "category": "UI/UX",
+    "items": ["Figma", "Canva", "Photoshop", "Adobe Animate"]
+  }
+]
