@@ -11,6 +11,7 @@ import MottoSeparater from "./components/Layout/Motto";
 import Philosophy from "./components/Layout/Philosophy";
 import ShowcaseCard from "./components/ShowcaseCard";
 import ClickSpark from "./components/ClickSpark";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   const [showIntro, setShowIntro] = useState(true);
@@ -38,7 +39,8 @@ export default function App() {
 
   return (
     <>
-      <main className="relative">
+      <Analytics />
+      <div className="relative">
         {isLandingPage && showIntro && (
           <Curtain
             videoSrc="/LOGO.webm"
@@ -93,7 +95,7 @@ export default function App() {
             <Contact />
           </main>
         </ClickSpark>
-      </main>
+      </div>
     </>
   );
 }
