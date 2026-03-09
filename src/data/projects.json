@@ -6,11 +6,11 @@
     "link_name": "Github",
     "tech": "YOLO • PANNs • MediaPipe • VGG2 • FaceNet • Docker",
     "images": [
-      "/InvigilAI/1.png",
-      "/InvigilAI/3.png",
-      "/InvigilAI/4.png",
-      "/InvigilAI/2.png",
-      "/InvigilAI/5.png"
+      "Projects/InvigilAI/1.png",
+      "Projects/InvigilAI/3.png",
+      "Projects/InvigilAI/4.png",
+      "Projects/InvigilAI/2.png",
+      "Projects/InvigilAI/5.png"
     ]
   },
   {
@@ -20,13 +20,13 @@
     "link_name": "Github",
     "tech": "Flask • RandomForest • Gemini • Multer • React",
     "images": [
-      "/DiagneX/1.png",
-      "/DiagneX/2.png",
+      "Projects/DiagneX/1.png",
+      "Projects/DiagneX/2.png",
       "https://github.com/Apurv7Gupta/Diagnex/blob/main/public/DiagneX.png?raw=true",
-      "/DiagneX/3.png",
-      "/DiagneX/4.png",
-      "/DiagneX/5.png",
-      "/DiagneX/6.png"
+      "Projects/DiagneX/3.png",
+      "Projects/DiagneX/4.png",
+      "Projects/DiagneX/5.png",
+      "Projects/DiagneX/6.png"
     ]
   },
   {
@@ -36,13 +36,13 @@
     "link_name": "Github",
     "tech": "React • Supabase • SQL • SupaAuth • FastAPI",
     "images": [
-      "/UrbanDwell/0.png",
-      "/UrbanDwell/1.png",
-      "/UrbanDwell/3a.png",
-      "/UrbanDwell/3B.png",
-      "/UrbanDwell/3C.png",
-      "/UrbanDwell/4.png",
-      "/UrbanDwell/5.png"
+      "Projects/UrbanDwell/0.png",
+      "Projects/UrbanDwell/1.png",
+      "Projects/UrbanDwell/3a.png",
+      "Projects/UrbanDwell/3B.png",
+      "Projects/UrbanDwell/3C.png",
+      "Projects/UrbanDwell/4.png",
+      "Projects/UrbanDwell/5.png"
     ]
   },
   {
@@ -52,10 +52,10 @@
     "link_name": "Website",
     "tech": "Traditional ML • Cosine Similarity • Python • SK-learn",
     "images": [
-      "/CineTwin/1.png",
-      "/CineTwin/2.png",
-      "/CineTwin/3.png",
-      "/CineTwin/4.png"
+      "Projects/CineTwin/1.png",
+      "Projects/CineTwin/2.png",
+      "Projects/CineTwin/3.png",
+      "Projects/CineTwin/4.png"
     ]
   }
 ]

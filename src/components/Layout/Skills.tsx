@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import StreakBurst from "../StreakBurst";
-import Spider from "../../../public/Spider.png";
+import Spider from "../../assets/Spider.png";
 import skills from "../../data/skills.json";
 import SkillGroup from "../SkillGroup";
 

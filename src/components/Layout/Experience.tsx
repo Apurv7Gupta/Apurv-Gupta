@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import StreakBurst from "../StreakBurst";
-import WIREFRAME from "../../../public/Wireframe.png";
+import WIREFRAME from "../../assets/Wireframe.png";
 import projects from "../../data/projects.json";
 import TextType from "../TextType";
 

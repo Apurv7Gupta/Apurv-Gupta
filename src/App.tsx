@@ -13,6 +13,9 @@ import ShowcaseCard from "./components/ShowcaseCard";
 import ClickSpark from "./components/ClickSpark";
 import { Analytics } from "@vercel/analytics/react";
 
+import CursorImgNormal from "./assets/Cursor/normal.png";
+import CursorImgLink from "./assets/Cursor/link.png";
+
 export default function App() {
   const [showIntro, setShowIntro] = useState(true);
   const [introFinished, setIntroFinished] = useState(false);
@@ -43,7 +46,7 @@ export default function App() {
       <div className="relative">
         {isLandingPage && showIntro && (
           <Curtain
-            videoSrc="/LOGO.webm"
+            videoSrc="./LOGO.webm"
             onComplete={() => console.log("Lifting...")}
             onVideoEnd={() => {
               setShowIntro(false);
@@ -60,8 +63,8 @@ export default function App() {
         >
           <main className="min-h-screen w-full bg-[#0a0d12] text-white selection:bg-[#3b82f6] selection:text-white">
             <Cursor
-              normalCursor="/Cursor/normal.png"
-              linkCursor="/Cursor/link.png"
+              normalCursor={CursorImgNormal}
+              linkCursor={CursorImgLink}
               size={25}
             />
             <Navbar />

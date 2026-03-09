@@ -1,6 +1,20 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import FILE_TREE from "../data/file_tree.json";
+
+// ---- FILTER ONLY THE DUPLICATE KEY REACT ERROR ----
+// const __originalConsoleError = console.error;
+
+// console.error = (...args) => {
+//   const msg = args.join(" ");
+
+//   // suppress ONLY this React warning
+//   if (msg.includes("Encountered two children with the same key")) return;
+
+//   __originalConsoleError(...args); // everything else logs normally
+// };
+// ---------------------------------------------------
+
 import {
   Files,
   Search,
@@ -234,11 +248,11 @@ export default function VScode() {
             </div>
 
             <div className="flex flex-col py-1 overflow-y-auto overflow-x-hidden">
-              {FILE_TREE.map((item, idx) => {
+              {FILE_TREE.map((item) => {
                 const isActive = item.name === activeFile;
                 return (
                   <div
-                    key={idx}
+                    key={item.id}
                     className={`flex items-center px-4 lg:px-6 py-1 text-xs lg:text-sm cursor-pointer transition-colors duration-200 truncate ${
                       isActive
                         ? "bg-[#011627] text-white border-l-2 border-blue-500"
@@ -325,10 +339,7 @@ export default function VScode() {
                   )}
                   {visibleLinesReadme >= 4 && (
                     <GutterLine num={4}>
-                      <span style={{ color: THEME_COLORS.string }}>
-                        in my pc**
-                      </span>
-                      !
+                      <span style={{ color: THEME_COLORS.string }}>**</span>!
                     </GutterLine>
                   )}
                   {visibleLinesReadme >= 5 && (
@@ -343,9 +354,8 @@ export default function VScode() {
                   {visibleLinesReadme >= 8 && (
                     <GutterLine num={8}>
                       <span style={{ color: THEME_COLORS.string }}>
-                        **Even Though**
+                        **Don't forget to check the Projects**
                       </span>{" "}
-                      I don't have a Mac
                     </GutterLine>
                   )}
                   {visibleLinesReadme >= 9 && (
@@ -354,7 +364,7 @@ export default function VScode() {
                   {visibleLinesReadme >= 10 && (
                     <GutterLine num={10}>
                       <span style={{ color: THEME_COLORS.comment }}>
-                        &gt; But it looked cool here
+                        &gt; Or the resume
                       </span>
                     </GutterLine>
                   )}

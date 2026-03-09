@@ -1,17 +1,48 @@
 [
-  { "name": ".vscode", "type": "dir", "isOpen": false },
-  { "name": "example.java", "type": "file", "iconColor": "#b07219" },
-  { "name": "hello.ts", "type": "file", "iconColor": "#2b7489" },
-  { "name": "index.html", "type": "file", "iconColor": "#e34c26" },
-  { "name": "main.py", "type": "file", "iconColor": "#3572A5" },
+  { "id": "dir-vscode", "name": ".vscode", "type": "dir", "isOpen": false },
   {
+    "id": "file-java",
+    "name": "example.java",
+    "type": "file",
+    "iconColor": "#b07219"
+  },
+  {
+    "id": "file-ts",
+    "name": "hello.ts",
+    "type": "file",
+    "iconColor": "#2b7489"
+  },
+  {
+    "id": "file-html",
+    "name": "index.html",
+    "type": "file",
+    "iconColor": "#e34c26"
+  },
+  {
+    "id": "file-py",
+    "name": "main.py",
+    "type": "file",
+    "iconColor": "#3572A5"
+  },
+  {
+    "id": "file-pkg",
     "name": "package.json",
     "type": "file",
     "iconColor": "#cb3837",
     "isActive": true
   },
-  { "name": "readme.md", "type": "file", "iconColor": "#083fa1" },
-  { "name": "rectangle.cpp", "type": "file", "iconColor": "#f34b7d" },
-  { "name": "run.sh", "type": "file", "iconColor": "#89e051" },
-  { "name": "test.cs", "type": "file", "iconColor": "#178600" }
+  {
+    "id": "file-md",
+    "name": "readme.md",
+    "type": "file",
+    "iconColor": "#083fa1"
+  },
+  {
+    "id": "file-cpp",
+    "name": "rectangle.cpp",
+    "type": "file",
+    "iconColor": "#f34b7d"
+  },
+  { "id": "file-sh", "name": "run.sh", "type": "file", "iconColor": "#89e051" },
+  { "id": "file-cs", "name": "test.cs", "type": "file", "iconColor": "#178600" }
 ]
