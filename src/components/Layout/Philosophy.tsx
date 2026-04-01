@@ -70,7 +70,7 @@ const Philosophy = () => {
 
           <motion.div
             variants={fadeInUp}
-            className="mt-12 w-full h-auto lg:h-[600px] aspect-video rounded-lg overflow-hidden border border-zinc-800 shadow-2xl"
+            className="hidden lg:block mt-12 w-full h-auto lg:h-[600px] aspect-video rounded-lg overflow-hidden border border-zinc-800 shadow-2xl"
           >
             <VScode />
           </motion.div>
