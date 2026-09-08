@@ -1,9 +1,9 @@
 import { useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import StreakBurst from "../StreakBurst";
+import StreakBurst from "../ui/StreakBurst";
 import Spider from "../../assets/Spider.png";
 import skills from "../../data/skills.json";
-import SkillGroup from "../SkillGroup";
+import SkillGroup from "../ui/SkillGroup";
 
 export default function Skills() {
   const [activeTab, setActiveTab] = useState<number>(0);

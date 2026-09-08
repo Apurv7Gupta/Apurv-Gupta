@@ -1,8 +1,8 @@
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import { useEffect, useState } from "react";
-import GlowButton from "../Buttons/GlowButton";
-import WhiteButton from "../Buttons/WhiteButton";
-import StreakBurst from "../StreakBurst";
+import GlowButton from "../ui/Buttons/GlowButton";
+import WhiteButton from "../ui/Buttons/WhiteButton";
+import StreakBurst from "../ui/StreakBurst";
 
 interface HeroProps {
   startAnimation?: boolean;

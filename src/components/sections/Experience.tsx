@@ -1,6 +1,6 @@
-import StreakBurst from "../StreakBurst";
+import StreakBurst from "../ui/StreakBurst";
 import experienceData from "../../data/experience.json";
-import TextType from "../TextType";
+import TextType from "../ui/TextType";
 
 export default function WorkExperience() {
   return (

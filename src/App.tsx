@@ -1,17 +1,17 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import Curtain from "./components/Curtain";
-import Navbar from "./components/Layout/Navbar";
-import Hero from "./components/Layout/Hero";
-import Experience from "./components/Layout/Works";
-import WorkExperience from "./components/Layout/Experience";
-import Skills from "./components/Layout/Skills";
-import Contact from "./components/Layout/Contact";
-import Cursor from "./components/Cursor";
-import MottoSeparater from "./components/Layout/Motto";
-import Philosophy from "./components/Layout/Philosophy";
-import ShowcaseCard from "./components/ShowcaseCard";
-import ClickSpark from "./components/ClickSpark";
+import Curtain from "./components/ui/Curtain";
+import Navbar from "./components/layout/Navbar";
+import Hero from "./components/sections/Hero";
+import Works from "./components/sections/Works";
+import WorkExperience from "./components/sections/Experience";
+import Skills from "./components/sections/Skills";
+import Contact from "./components/sections/Contact";
+import Cursor from "./components/ui/Cursor";
+import MottoSeparater from "./components/sections/Motto";
+import Philosophy from "./components/sections/Philosophy";
+import ShowcaseCard from "./components/ui/ShowcaseCard";
+import ClickSpark from "./components/ui/ClickSpark";
 import { Analytics } from "@vercel/analytics/react";
 
 import CursorImgNormal from "./assets/Cursor/normal.png";
@@ -72,7 +72,7 @@ export default function App() {
             <Hero startAnimation={!isLandingPage || introFinished} />
             <Skills />
             <WorkExperience />
-            <Experience />
+            <Works />
 
             <Philosophy />
 

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import VScode from "../VScode";
-import Flowchart from "../Flowchart";
+import Flowchart from "../ui/Flowchart";
 
 const Philosophy = () => {
   // Animation Variants
