@@ -1,0 +1,12 @@
+[
+  {
+    "company": "GuruTech AI",
+    "role": "Backend AI Engineer Intern",
+    "duration": "July, 26 - Present",
+    "description": [
+      "Deployed full-stack AI-Assisted CRMs using React, TypeScript, Python, FastAPI, and MongoDB, implementing a scalable layered backend and JWT-based Role-Based Access Control (RBAC).",
+      "Integrated AI-driven message processing workflows to classify customer intent, generate structured JSON reply drafts, and automate human escalation routing via mock WhatsApp webhooks.",
+      "Optimized database performance and data integrity by designing targeted MongoDB indexes and enforcing strict event idempotency to prevent duplicate webhook processing for scalable lead tracking."
+    ]
+  }
+]

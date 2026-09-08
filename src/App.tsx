@@ -4,6 +4,7 @@ import Curtain from "./components/Curtain";
 import Navbar from "./components/Layout/Navbar";
 import Hero from "./components/Layout/Hero";
 import Experience from "./components/Layout/Experience";
+import WorkExperience from "./components/Layout/WorkExperience";
 import Skills from "./components/Layout/Skills";
 import Contact from "./components/Layout/Contact";
 import Cursor from "./components/Cursor";
@@ -70,6 +71,7 @@ export default function App() {
             <Navbar />
             <Hero startAnimation={!isLandingPage || introFinished} />
             <Skills />
+            <WorkExperience />
             <Experience />
 
             <Philosophy />
