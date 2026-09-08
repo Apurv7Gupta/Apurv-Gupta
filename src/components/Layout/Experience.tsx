@@ -37,10 +37,10 @@ export default function WorkExperience() {
           / Professional Journey
         </h2>
 
-        <h1 className="text-4xl md:text-7xl font-bold tracking-tighter leading-[0.9] flex items-baseline mb-12 sm:mb-20">
+        <h1 className="text-4xl md:text-7xl font-bold tracking-tighter leading-none pb-4 flex items-baseline mb-12 sm:mb-20">
           <StreakBurst
             text="Experience"
-            className="italic text-transparent bg-clip-text bg-gradient-to-r from-gray-400 via-gray-100 to-white"
+            className="italic text-transparent bg-clip-text bg-gradient-to-r from-gray-400 via-gray-100 to-white pb-2"
             delay={0.4}
           />
         </h1>
