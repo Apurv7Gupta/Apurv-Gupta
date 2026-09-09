@@ -46,16 +46,14 @@
     ]
   },
   {
-    "Name": "CineTwin",
-    "desc": "Cosine Similarity based movie recommendation system",
-    "link": "https://cinetwin.onrender.com/",
+    "Name": "Meridian",
+    "desc": "Agentic AI and RAG (Retrieval-Augmented Generation) based chatbot",
+    "link": "https://meridian-three-ruby.vercel.app/",
     "link_name": "Website",
-    "tech": "Traditional ML • Cosine Similarity • Python • SK-learn",
+    "tech": "React 19 • Tailwind CSS • Llama-3.1 • FastAPI • LangGraph • Pinecone",
     "images": [
-      "Projects/CineTwin/1.png",
-      "Projects/CineTwin/2.png",
-      "Projects/CineTwin/3.png",
-      "Projects/CineTwin/4.png"
+      "Projects/Meridian/Meridian1.png",
+      "Projects/Meridian/Meridian2.png"
     ]
   }
 ]

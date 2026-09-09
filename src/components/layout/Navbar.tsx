@@ -27,6 +27,12 @@ export default function Navbar() {
           Projects
         </a>
         <a
+          href="#experience"
+          className="hover:text-[hsl(220,100%,60%)] transition-colors"
+        >
+          Experience
+        </a>
+        <a
           href="#skills"
           className="hover:text-[hsl(220,100%,60%)] transition-colors"
         >
