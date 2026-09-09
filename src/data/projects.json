@@ -30,19 +30,16 @@
     ]
   },
   {
-    "Name": "UrbanDwell",
-    "desc": "Full Stack room rental website powered by Supabase, react and FastAPI",
-    "link": "https://github.com/Apurv7Gupta/UrbanDwell",
-    "link_name": "Github",
-    "tech": "React • Supabase • SQL • SupaAuth • FastAPI",
+    "Name": "Customer Relationship Manager",
+    "desc": "Role-based CRM with lead management, AI classification, and audit trail",
+    "link": "https://customer-relationship-manager-alok.onrender.com/",
+    "link_name": "Website",
+    "tech": "React • Vite • TypeScript • FastAPI • MongoDB",
     "images": [
-      "Projects/UrbanDwell/0.png",
-      "Projects/UrbanDwell/1.png",
-      "Projects/UrbanDwell/3a.png",
-      "Projects/UrbanDwell/3B.png",
-      "Projects/UrbanDwell/3C.png",
-      "Projects/UrbanDwell/4.png",
-      "Projects/UrbanDwell/5.png"
+      "Projects/CRM/CRM1.png",
+      "Projects/CRM/CRM2.png",
+      "Projects/CRM/CRM3.png",
+      "Projects/CRM/CRM4.png"
     ]
   },
   {
