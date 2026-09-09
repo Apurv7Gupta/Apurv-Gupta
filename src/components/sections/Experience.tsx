@@ -1,6 +1,7 @@
 import StreakBurst from "../ui/StreakBurst";
 import experienceData from "../../data/experience.json";
 import TextType from "../ui/TextType";
+import { motion } from "framer-motion";
 
 export default function WorkExperience() {
   return (
@@ -32,10 +33,16 @@ export default function WorkExperience() {
       />
 
       <div className="max-w-7xl mx-auto relative z-10">
-        <h2 className="text-xs sm:text-sm font-mono text-gray-500 uppercase mb-12 sm:mb-10 flex items-center gap-2">
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="text-xs sm:text-sm font-mono text-gray-500 uppercase mb-12 sm:mb-10 flex items-center gap-2"
+        >
           <span className="w-2 h-2 bg-blue-600 animate-pulse rounded-full shadow-[0_0_8px_rgba(37,99,235,0.8)]" />
           / Professional Journey
-        </h2>
+        </motion.h2>
 
         <h1 className="text-4xl md:text-7xl font-bold tracking-tighter leading-none pb-4 flex items-baseline mb-12 sm:mb-20">
           <StreakBurst
@@ -46,8 +53,12 @@ export default function WorkExperience() {
         </h1>
 
         {experienceData.map((exp, i) => (
-          <div
+          <motion.div
             key={i}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.5, delay: i * 0.15 }}
             className="group border-b border-white/5 py-8 sm:py-12 flex flex-col gap-4 hover:bg-blue-500/[0.01] transition-all duration-500"
           >
             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
@@ -68,10 +79,17 @@ export default function WorkExperience() {
                 
                 <ul className="mt-6 space-y-3">
                   {exp.description.map((desc, idx) => (
-                    <li key={idx} className="text-gray-400 text-sm sm:text-base font-sans leading-relaxed flex items-start gap-3">
+                    <motion.li
+                      key={idx}
+                      initial={{ opacity: 0, x: -30 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.4, delay: i * 0.15 + idx * 0.1, type: "spring", stiffness: 120, damping: 12 }}
+                      className="text-gray-400 text-sm sm:text-base font-sans leading-relaxed flex items-start gap-3"
+                    >
                       <span className="text-blue-500 mt-1.5 text-xs">▹</span>
                       <span>{desc}</span>
-                    </li>
+                    </motion.li>
                   ))}
                 </ul>
               </div>
@@ -82,7 +100,7 @@ export default function WorkExperience() {
                 </p>
               </div>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>
