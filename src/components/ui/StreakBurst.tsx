@@ -5,18 +5,21 @@ interface StreakBurstProps {
   text: string;
   className?: string;
   delay?: number;
+  playAnimation?: boolean;
 }
 
 const StreakBurst: React.FC<StreakBurstProps> = ({
   text,
   className = "",
   delay = 0.5,
+  playAnimation,
 }) => {
   return (
     <motion.div
       className="relative inline-block overflow-visible"
       initial="hidden"
-      whileInView="visible"
+      animate={playAnimation !== undefined ? (playAnimation ? "visible" : "hidden") : undefined}
+      whileInView={playAnimation === undefined ? "visible" : undefined}
       viewport={{ once: true }}
     >
       <motion.span

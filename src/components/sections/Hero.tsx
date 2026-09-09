@@ -153,7 +153,7 @@ export default function Hero({ startAnimation = true }: HeroProps) {
                       className="flex items-center gap-2 hover:text-[hsl(220,100%,60%)] transition-colors cursor-default group overflow-hidden"
                     >
                       <span className="w-4 h-px bg-white/20 group-hover:bg-[hsl(220,100%,60%)] transition-colors" />
-                      <StreakBurst text={label} delay={1.2 + i * 0.1} />
+                      <StreakBurst text={label} delay={1.2 + i * 0.1} playAnimation={startAnimation} />
                     </li>
                   ),
                 )}
